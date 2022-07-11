@@ -1,0 +1,38 @@
+.form {
+  padding: 20px 0;
+}
+input[type="text"],
+input[type="date"] {
+  outline: none;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  width: 60%;
+}
+.text,
+.date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+label {
+  color: black;
+  font-weight: bolder;
+}
+input[type="submit"] {
+  margin: 0 20px;
+}
+input[type="submit"],
+input[type="reset"] {
+  outline: none;
+  border: none;
+  background-color: green;
+  border-radius: 5px;
+  padding: 8px;
+  color: white;
+  cursor: pointer;
+}
+input[type="reset"] {
+  background-color: red;
+}
